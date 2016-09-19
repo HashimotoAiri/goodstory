@@ -1,0 +1,440 @@
+@charset "UTF-8";
+/* line 1, ../sass/brest.scss */
+
+@media (max-width: 640px) {
+  #brest {
+    font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    padding: 50px 0 10px; }
+    /* line 5, ../sass/brest.scss */
+    #brest h2 {
+      margin: 0 0 30px; }
+      #brest h2 img {
+        width: 100px;
+        margin: 0 auto;
+      }
+    /* line 8, ../sass/brest.scss */
+    #brest h3 {
+      margin: 0 0 40px; }
+      #brest h3 img {
+        width: 132px;
+        margin: 0 auto;
+      }
+    /* line 11, ../sass/brest.scss */
+    #brest .inner {
+      background: #FFF;
+      border: 1px dashed #660000;
+      padding: 50px 0 0;
+      margin: 0 auto 66px; }
+      /* line 15, ../sass/brest.scss */
+      #brest .inner dl {
+        border-bottom: 1px dashed #660000;
+        margin: 0 auto 30px;
+        padding: 0 0 30px;
+        width: 92%;
+        display: block; }
+        /* line 21, ../sass/brest.scss */
+        #brest .inner dl dt {
+          width: 100%;
+          padding: 0; }
+          #brest .inner dl dt h2 img {
+            width: 100px;
+            margin: 0 auto;
+          }
+        /* line 24, ../sass/brest.scss */
+        #brest .inner dl dd {
+          text-align: left;
+          padding: 20px 0 0; }
+          /* line 27, ../sass/brest.scss */
+          #brest .inner dl dd h3 {
+            font-size: 28px;
+            margin: 0 0 30px; }
+          /* line 31, ../sass/brest.scss */
+          #brest .inner dl dd p {
+            font-size: 17px;
+            font-weight: normal; }
+          /* line 35, ../sass/brest.scss */
+          #brest .inner dl dd ul {
+            list-style-type: none; }
+            /* line 37, ../sass/brest.scss */
+            #brest .inner dl dd ul li {
+              overflow: hidden;
+              margin: 20px 0 0; }
+              /* line 40, ../sass/brest.scss */
+              #brest .inner dl dd ul li div {
+                float: left; }
+              /* line 43, ../sass/brest.scss */
+              #brest .inner dl dd ul li .step {
+                width: 50%;
+                padding: 15px 0 0; }
+                /* line 45, ../sass/brest.scss */
+                #brest .inner dl dd ul li .step span {
+                  display: block;
+                  border: 2px dotted #660000;
+                  border-radius: 50%;
+                  width: 76px;
+                  height: 76px;
+                  margin: 0 auto; }
+                  /* line 51, ../sass/brest.scss */
+                  #brest .inner dl dd ul li .step span img {
+                    display: block;
+                    margin: 15px auto 0; }
+              /* line 57, ../sass/brest.scss */
+              #brest .inner dl dd ul li .icon {
+                padding: 0 0 0;
+                width: 50%; }
+                /* line 60, ../sass/brest.scss */
+                #brest .inner dl dd ul li .icon img {
+                  display: block;
+                  margin: 0 auto; }
+              /* line 65, ../sass/brest.scss */
+              #brest .inner dl dd ul li .content {
+                padding: 30px 0 0; }
+                /* line 67, ../sass/brest.scss */
+                #brest .inner dl dd ul li .content h3 {
+                  font-size: 18px;
+                  color: #660000;
+                  margin: 0 0 10px; }
+                /* line 72, ../sass/brest.scss */
+                #brest .inner dl dd ul li .content p {
+                  font-size: 14px; }
+        /* line 79, ../sass/brest.scss */
+        #brest .inner dl dd.fee {
+          padding: 30px 15px 0; }
+          /* line 82, ../sass/brest.scss */
+          #brest .inner dl dd.fee ul li {
+            margin: 0 0 30px; }
+            /* line 84, ../sass/brest.scss */
+            #brest .inner dl dd.fee ul li h4 {
+              color: #660000;
+              position: relative;
+              padding: 0 0 0 20px;
+              font-size: 19px; }
+              /* line 89, ../sass/brest.scss */
+              #brest .inner dl dd.fee ul li h4:before {
+                content: "";
+                background: url(../images/brest/icon_disc.png) no-repeat;
+                width: 14px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                top: 6px;
+                left: 0; }
+            /* line 100, ../sass/brest.scss */
+            #brest .inner dl dd.fee ul li p {
+              font-size: 18px; }
+              /* line 102, ../sass/brest.scss */
+              #brest .inner dl dd.fee ul li p span {
+                font-size: 15px;
+                line-height: 1.2;
+                display: inline-block; }
+                /* line 106, ../sass/brest.scss */
+                #brest .inner dl dd.fee ul li p span span {
+                  margin: 0 0 0 15px; }
+      /* line 115, ../sass/brest.scss */
+      #brest .inner dl.last {
+        border: none;
+        padding: 0;
+        margin: 0 auto; }
+      /* line 120, ../sass/brest.scss */
+      #brest .inner .recommend {
+        position: relative;
+        border-bottom: 1px dashed #660000;
+        width: 90%;
+        margin: 0 auto 30px;
+        padding: 0 0 30px; }
+        #brest .inner .recommend h2 {
+          font-size: 18px;
+          color: #660000;
+          margin: 0 0 10px;
+        }
+        /* line 126, ../sass/brest.scss */
+        #brest .inner .recommend:before {
+          content: none;
+          background: url(../images/brest/object_recomend.png) no-repeat;
+          width: 232px;
+          height: 196px;
+          display: block;
+          position: absolute;
+          top: -40px;
+          left: -80px; }
+        /* line 136, ../sass/brest.scss */
+        #brest .inner .recommend ul {
+          list-style-type: none;
+          padding: 20px 0 20px;
+          overflow: hidden; }
+          /* line 140, ../sass/brest.scss */
+          #brest .inner .recommend ul li {
+            float: left;
+            width: 100%;
+            text-align: left;
+            font-size: 14px;
+            padding: 5px 0 20px 50px;
+            box-sizing: border-box;
+            position: relative; }
+            /* line 148, ../sass/brest.scss */
+            #brest .inner .recommend ul li:before {
+              content: "";
+              background: url(../images/brest/icon_recomend.png) no-repeat;
+              width: 46px;
+              height: 44px;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0; }
+    /* line 169, ../sass/brest.scss */
+    #brest .sec_contact .inner {
+      background: none;
+      border: none;
+      padding: 0; }
+      #brest .sec_contact h2 img {
+        width: 100px;
+        margin: 0 auto;
+      }
+      /* line 173, ../sass/brest.scss */
+      #brest .sec_contact .inner p {
+        font-size: 13px; }
+        /* line 175, ../sass/brest.scss */
+        #brest .sec_contact .inner p span {
+          border: 1px solid #000;
+          display: inline-block;
+          padding: 3px 15px;
+          margin: 0 10px;
+          color: #660000; }
+      /* line 183, ../sass/brest.scss */
+      #brest .sec_contact .inner p.tel {
+        font-family: 'Prata', serif;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 3px; }
+        /* line 188, ../sass/brest.scss */
+        #brest .sec_contact .inner p.tel span {
+          display: inline-block;
+          padding: 0 15px;
+          font-weight: normal;
+          margin: 0;
+          border: none; }
+      /* line 196, ../sass/brest.scss */
+      #brest .sec_contact .inner p.mail {
+        font-family: 'Prata', serif;
+        font-size: 18px;
+        margin: 0 0 30px;
+        letter-spacing: 2px; }
+        #brest #totop .inner {
+          background: none;
+          padding: 0;
+          margin: 0 auto;
+          border: none;
+        }
+}
+@media (min-width: 641px) {
+  #brest {
+    font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    padding: 100px 0 30px; }
+    /* line 5, ../sass/brest.scss */
+    #brest h2 {
+      margin: 0 0 45px; }
+    /* line 8, ../sass/brest.scss */
+    #brest h2 img {
+      width: 100px;
+      margin: 0 auto;
+    }
+    #brest h3 {
+      margin: 0 0 75px; }
+    /* line 11, ../sass/brest.scss */
+    #brest .inner {
+      background: #FFF;
+      border: 1px dashed #660000;
+      padding: 100px 0 0;
+      margin: 0 auto 66px; }
+      /* line 15, ../sass/brest.scss */
+      #brest .inner dl {
+        border-bottom: 1px dashed #660000;
+        margin: 0 auto 60px;
+        padding: 0 0 60px;
+        width: 92%;
+        display: flex; }
+        /* line 21, ../sass/brest.scss */
+        #brest .inner dl dt {
+          width: 25%;
+          padding: 25px 0 0; }
+        /* line 24, ../sass/brest.scss */
+        #brest .inner dl dd {
+          text-align: left;
+          padding: 25px 15px 0; }
+          /* line 27, ../sass/brest.scss */
+          #brest .inner dl dd h3 {
+            font-size: 28px;
+            margin: 0 0 30px; }
+          /* line 31, ../sass/brest.scss */
+          #brest .inner dl dd p {
+            font-size: 17px;
+            font-weight: normal; }
+          /* line 35, ../sass/brest.scss */
+          #brest .inner dl dd ul {
+            list-style-type: none; }
+            /* line 37, ../sass/brest.scss */
+            #brest .inner dl dd ul li {
+              overflow: hidden;
+              margin: 50px 0 0; }
+              /* line 40, ../sass/brest.scss */
+              #brest .inner dl dd ul li div {
+                float: left; }
+              /* line 43, ../sass/brest.scss */
+              #brest .inner dl dd ul li .step {
+                padding: 40px 0 0; }
+                /* line 45, ../sass/brest.scss */
+                #brest .inner dl dd ul li .step span {
+                  display: block;
+                  border: 2px dotted #660000;
+                  border-radius: 50%;
+                  width: 76px;
+                  height: 76px; }
+                  /* line 51, ../sass/brest.scss */
+                  #brest .inner dl dd ul li .step span img {
+                    display: block;
+                    margin: 15px auto 0; }
+              /* line 57, ../sass/brest.scss */
+              #brest .inner dl dd ul li .icon {
+                padding: 25px 0 0;
+                width: 180px; }
+                /* line 60, ../sass/brest.scss */
+                #brest .inner dl dd ul li .icon img {
+                  display: block;
+                  margin: 0 auto; }
+              /* line 65, ../sass/brest.scss */
+              #brest .inner dl dd ul li .content {
+                padding: 30px 0 0; }
+                /* line 67, ../sass/brest.scss */
+                #brest .inner dl dd ul li .content h3 {
+                  font-size: 18px;
+                  color: #660000;
+                  margin: 0 0 10px; }
+                /* line 72, ../sass/brest.scss */
+                #brest .inner dl dd ul li .content p {
+                  font-size: 14px; }
+        /* line 79, ../sass/brest.scss */
+        #brest .inner dl dd.fee {
+          padding: 30px 15px 0; }
+          /* line 82, ../sass/brest.scss */
+          #brest .inner dl dd.fee ul li {
+            margin: 0 0 50px; }
+            /* line 84, ../sass/brest.scss */
+            #brest .inner dl dd.fee ul li h4 {
+              color: #660000;
+              position: relative;
+              padding: 0 0 0 20px;
+              font-size: 19px; }
+              /* line 89, ../sass/brest.scss */
+              #brest .inner dl dd.fee ul li h4:before {
+                content: "";
+                background: url(../images/brest/icon_disc.png) no-repeat;
+                width: 14px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                top: 6px;
+                left: 0; }
+            /* line 100, ../sass/brest.scss */
+            #brest .inner dl dd.fee ul li p {
+              font-size: 18px; }
+              /* line 102, ../sass/brest.scss */
+              #brest .inner dl dd.fee ul li p span {
+                font-size: 15px;
+                line-height: 1.2;
+                display: inline-block; }
+                /* line 106, ../sass/brest.scss */
+                #brest .inner dl dd.fee ul li p span span {
+                  margin: 0 0 0 15px; }
+      /* line 115, ../sass/brest.scss */
+      #brest .inner dl.last {
+        border: none;
+        padding: 0;
+        margin: 0 auto; }
+      /* line 120, ../sass/brest.scss */
+      #brest .inner .recommend {
+        position: relative;
+        border-bottom: 1px dashed #660000;
+        width: 90%;
+        margin: 0 auto 60px;
+        padding: 0 0 60px; }
+        /* line 126, ../sass/brest.scss */
+        #brest .inner .recommend:before {
+          content: "";
+          background: url(../images/brest/object_recomend.png) no-repeat;
+          width: 232px;
+          height: 196px;
+          display: block;
+          position: absolute;
+          top: -40px;
+          left: -80px; }
+        /* line 136, ../sass/brest.scss */
+        #brest .inner .recommend ul {
+          list-style-type: none;
+          padding: 35px 0 40px 180px;
+          overflow: hidden; }
+          /* line 140, ../sass/brest.scss */
+          #brest .inner .recommend ul li {
+            float: left;
+            width: 330px;
+            text-align: left;
+            font-size: 14px;
+            padding: 5px 0 0 50px;
+            box-sizing: border-box;
+            position: relative; }
+            /* line 148, ../sass/brest.scss */
+            #brest .inner .recommend ul li:first-child {
+              width: 290px; }
+            /* line 151, ../sass/brest.scss */
+            #brest .inner .recommend ul li:nth-child(2) {
+              width: 260px; }
+            /* line 154, ../sass/brest.scss */
+            #brest .inner .recommend ul li:before {
+              content: "";
+              background: url(../images/brest/icon_recomend.png) no-repeat;
+              width: 46px;
+              height: 44px;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0; }
+    /* line 169, ../sass/brest.scss */
+    #brest .sec_contact .inner {
+      background: none;
+      border: none;
+      padding: 0; }
+      /* line 173, ../sass/brest.scss */
+      #brest .sec_contact .inner p {
+        font-size: 13px; }
+        /* line 175, ../sass/brest.scss */
+        #brest .sec_contact .inner p span {
+          border: 1px solid #000;
+          display: inline-block;
+          padding: 3px 15px;
+          margin: 0 10px;
+          color: #660000; }
+      /* line 183, ../sass/brest.scss */
+      #brest .sec_contact .inner p.tel {
+        font-family: 'Prata', serif;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 3px; }
+        /* line 188, ../sass/brest.scss */
+        #brest .sec_contact .inner p.tel span {
+          display: inline-block;
+          padding: 0 15px;
+          font-weight: normal;
+          margin: 0;
+          border: none; }
+      /* line 196, ../sass/brest.scss */
+      #brest .sec_contact .inner p.mail {
+        font-family: 'Prata', serif;
+        font-size: 18px;
+        margin: 0 0 30px;
+        letter-spacing: 2px; }
+        #brest #totop .inner {
+          background: none;
+          padding: 0;
+          margin: 0 auto;
+          border: none;
+        }
+}

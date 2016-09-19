@@ -1,0 +1,124 @@
+@media (max-width: 640px) {
+  .pc-on {
+    display: none;
+  }
+  .sp-on {
+    display: block;
+  }
+  #menu {
+    background: #7D0000;
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 9999;
+  }
+  #menu ul {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #menu ul li {
+    margin-top: 20px;
+  }
+  #menu ul li:first-child {
+    margin-top: 0px;
+  }
+  #menu ul li.menu_close {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    cursor: pointer;
+  }
+  #menu ul li a {
+    font-family: 'Prata', serif;
+    display: inline-block;
+    min-width: 120px;
+    padding-bottom: 5px;
+    color: #FFF;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    border-bottom: 5px solid #7D0000;
+  }
+  #menu ul li span {
+    font-family: 'Prata', serif;
+    display: inline-block;
+    min-width: 120px;
+    padding-bottom: 5px;
+    color: #AAA;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+  }
+  #menu ul li span span {
+    display: block;
+    font-size: .6em;
+  }
+
+  #menu ul li a.active,
+  #menu ul li a:hover {
+    border-bottom: 5px solid #7D0000;
+  }
+  #menu ul li a.active {
+    border-bottom: 5px solid #FFF;
+  }
+
+}
+@media (min-width: 641px) {
+  .sp-on {
+    display: none;
+  }
+  .pc-on {
+    display: block;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.85);
+    z-index: 99999;
+  }
+  #nav {
+    float: left;
+    width: 1069px;
+  }
+  #nav ul {
+    width: 980px;
+    margin: 0 auto;
+  }
+  #nav ul li {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 140px;
+    padding: 0 0 10px;
+  }
+  #nav ul li:hover {
+    border-bottom: 3px solid #7D0000;
+  }
+  #nav ul li.cs:hover {
+    border: none;
+  }
+  #nav ul li:last-child {
+    margin: 0;
+  }
+  #nav ul li a {
+    font-size: 18px;
+    color: #7D0000;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  #nav ul li.active {
+    border-bottom: 5px solid #7D0000;
+  }
+  #nav ul li span {
+    font-size: 18px;
+    color: #CCC;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  #nav ul li span span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}
