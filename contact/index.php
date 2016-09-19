@@ -148,8 +148,6 @@ if(isset($_POST["action"]) && ($_POST["action"] == "confirm")) {
       <div id="contact" class="section bg_gray">
       <div class="inner" style="padding-top:0;">
         <h2><img src="../common/images/title_contact.png" alt="contact"></h2>
-        <p class="telfax">TEL : 03-4360-5731<!--<span class="pc-on">/</span><br class="sp-on">FAX : 03-6700-9051--></p>
-        <p class="mail"><a href="mailto:info@good-story.co.jp">info@good-story.co.jp</a></p>
         <p>下記フォームに必要事項を入力し<span class="contact_red">この内容で確認する</span>をクリックして下さい。</p>
       </div>
 
